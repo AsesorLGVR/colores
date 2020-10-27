@@ -232,11 +232,11 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     UpdateCurPos()
 })
 function AddToSpriteList () {
-    x = CurrentIndex % 9 * 25
-    y = Math.floor(CurrentIndex / 9) * 20
+    x = CurrentIndex % 9 * 17
+    y = Math.floor(CurrentIndex / 9) * 17
     mySprite = sprites.create(imageList[CodeSequence[CurrentIndex]], SpriteKind.glyph)
     spriteList[CurrentIndex] = mySprite
-    mySprite.left = x + 15
+    mySprite.left = x + 5
     mySprite.top = y + 20
     music.playTone(SoundList[CodeSequence[CurrentIndex]], music.beat(BeatFraction.Half))
 }
