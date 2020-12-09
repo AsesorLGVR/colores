@@ -258,7 +258,7 @@ let mySprite: Sprite = null
 let spriteList: Sprite[] = []
 let index = 0
 let value = 0
-game.showLongText("Memoriza la secuencia y reproducela", DialogLayout.Bottom)
+game.showLongText("Memoriza la secuencia y reprodúcela", DialogLayout.Bottom)
 spriteList = sprites.allOfKind(SpriteKind.glyph)
 scene.setBackgroundColor(13)
 info.setScore(0)
